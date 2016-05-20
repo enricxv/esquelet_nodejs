@@ -1,1 +1,1 @@
-web: node puta_start.js
+web: npm run server
