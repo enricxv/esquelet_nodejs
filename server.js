@@ -44,6 +44,7 @@ app.get('*', (req, res) => {
  *************************************************************/
 
 if (!process.env.PRODUCTION) {
+  console.log('No producció');
   const webpack = require('webpack');
   const WebpackDevServer = require('webpack-dev-server');
   const config = require('./webpack.local.config');
